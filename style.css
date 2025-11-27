@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#outer-div{
+    width: 50rem;
+    height: 100%;
+    margin: auto;
+    padding: 2rem;
+    background-color: rgb(160, 215, 215);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid darkgray
+}
+
+#header-div{
+    margin: 1rem;
+    text-align: center;
+}
+
+#h1{
+    font-size: 3rem;
+    margin:0.5rem;
+    padding:0.5rem;
+    color: darkblue;
+    border-bottom: 2px solid darkblue;
+}
+
+#h2{
+    font:1.5rem;
+    margin:0.5rem;
+    padding:0.5rem;
+}
+
+#search-div{
+    margin:1rem;
+    padding: 1rem;
+    border: 1px solid gray;
+    width: 80%;
+
+}
+
+#city-input{
+    width: 75%;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    border: 2px solid #000;
+    border-radius: 40px;
+    text-align: center;
+}
+
+#search-btn{
+    width: 22%;
+    height: 2.5rem;
+    border:2px solid black;
+    border-radius:30px;
+    margin-left: 12px;
+    font-size: large;
+    background-color: beige;
+}

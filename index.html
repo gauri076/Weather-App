@@ -4,23 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h1>weather App</h1>
-        <h3>Search your city to know its current weather</h3>
+<div id="outer-div">
+        <div id="header-div">
+        <h1 id="h1">Weather App</h1>
+        <h2 id="h2">Search your city to know its current weather</h2>
+        </div>
 
-        <input id= "city-input" type="text">
+        <div id="search-div">
+        <input id= "city-input" type="text" placeholder="Enter a City">
         <button id="search-btn">Search</button>
-    </div>
+        </div>
+    
 
-    <div>
+    <div id="last-div">
         <h2 id="city-names">name, region - country </h2>
          <p id="city-time">localtime</p>
         <h3 id="celcius">temperature in celsius</h3>
         <h3 id="feranite">temperature in feranite </h3>
        
     </div>
+
+</div>
 
     <script src="script.js" ></script>
 </body>
