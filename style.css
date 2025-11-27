@@ -3,19 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-#outer-div{
-    width: 50rem;
-    height: 100%;
-    margin: auto;
-    padding: 2rem;
-    background-color: rgb(160, 215, 215);
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(169, 233, 251);
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    border: 2px solid darkgray
+    align-items: center;
 }
+/* 
+#w-i1{
+    height: 5rem;
+    display: flex;
+} */
+#outer-div {
+    width: 50rem;
+    height: 65%;
+    margin: 5rem;
+    padding: 2rem;
+    background-color: rgb(121, 212, 212);
+    border: 2px solid darkgray;
+    border-radius: 50px;
+    transition: all 0.3s ease; /* smooth animation */
+}
+
+#outer-div:hover {
+    background-color: rgb(130, 200, 200); /* change color on hover */
+    border-color: gray; /* border change on hover */
+    transform: scale(1.02); /* slight zoom effect */
+}
+
+
 
 #header-div{
     margin: 1rem;
@@ -41,7 +59,8 @@
     padding: 1rem;
     border: 1px solid gray;
     width: 80%;
-
+    background-color: rgb(174, 220, 191);
+    border-radius: 20%;
 }
 
 #city-input{
@@ -60,5 +79,55 @@
     border-radius:30px;
     margin-left: 12px;
     font-size: large;
-    background-color: beige;
+    color:white;
+    background-color: rgb(84, 153, 123);
+    transition: all 0.3s ease-in-out;
 }
+
+#search-btn:hover{
+    background-color: rgb(135, 135, 214);
+    cursor: pointer;
+}
+
+#last-div{
+    width: 85%;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#city-names{
+    margin: 10px;
+    padding: 2px;
+    /* border-bottom: 1px solid black; */
+}
+
+#city-names1{
+    margin: 10px;
+    padding: 2px;
+    /* border-bottom: 1px solid black; */
+}
+
+#city-names2{
+    margin: 10px;
+    padding: 2px;
+    border-bottom: 1px solid black;
+}
+
+#city-time{
+    margin-top:1.5rem;
+    padding: 1px;
+    font-size: larger;
+}
+
+#celcius{
+    margin: 5px;
+    padding: 1px;
+    font-size: x-large;
+}
+
+#feranite{
+    margin: 5px;
+    padding: 1px;
+}
+
